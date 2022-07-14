@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Calculadora de Melhor Combustível</title>
+</head>
+
+<body>
+    <h1>Veja qual a melhor opção para abastecer</h1>
+    
+
+    <p> Digite o preço do litro de etanol e da gasolina:</p>
+    <form name="frmCombustivel">
+        <input type="text" placeholder="Etanol" autofocus name="txtEtanol">
+        <input type="text" placeholder="Gasolina" autofocus name="txtGasolina">
+        <input type="button" value="Ver melhor opção" onclick="calcular()">
+        <input type="reset" value="Limpar" onclick="resetar()">
+    </form>
+    <p>
+
+    </p>
+    <img src="calculadoraCombustivel.gif" alt="Calculadora de Melhor Combustível" id="status">
+
+    <p>
+
+    </p>
+    <footer>
+        Projeto inspirado na <a
+            href="https://g1.globo.com/economia/noticia/2022/03/10/nova-alta-da-gasolina-vale-a-pena-abastecer-com-etanol-entenda-como-calcular.ghtml">matéria
+            do G1</a> e a calculadora flex do professor José de Assis.
+    </footer>
+         
+    </p>
+    <script src="app.js"></script>
+</body>
+
+</html>
